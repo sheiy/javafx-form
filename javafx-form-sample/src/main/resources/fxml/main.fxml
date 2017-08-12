@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="form.MainForm">
+   <children>
+      <Label layoutX="185.0" layoutY="175.0" text="%hi">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="_Tip1" layoutX="14.0" layoutY="24.0" text="%tip1" />
+      <Label fx:id="_Tip2" layoutX="14.0" layoutY="61.0" text="%tip2" />
+   </children>
+</AnchorPane>
