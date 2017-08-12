@@ -47,7 +47,7 @@ public abstract class Form extends Stage {
         }
     }
 
-    public Optional<ButtonType> alert(String content) {
+    protected Optional<ButtonType> alert(String content) {
         Alert alert = new Alert(Alert.AlertType.NONE, content, ButtonType.OK);
         alert.setTitle("");
         alert.initOwner(this);
@@ -58,7 +58,7 @@ public abstract class Form extends Stage {
         ALL_FORM.forEach((s, form) -> form.close());
     }
 
-    public abstract URL getLocation();
+    protected abstract URL getLocation();
 
-    public abstract ResourceBundle getResourceBundle();
+    protected abstract ResourceBundle getResourceBundle();
 }
